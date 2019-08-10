@@ -16,15 +16,20 @@ Other ressources generated are indicated in the table below:
 | **[Pliv_PqN3S_evmp.gtf](https://www.dropbox.com/s/4b0f11ooj2fwa1a/Pliv_PqN3S_evmp.gtf.gz?dl=1)** | EVM/PASA annotation | GTF |
 | **[Pliv_PqN3S_evmp.pep](https://www.dropbox.com/s/yn3v1zhoxqo8q7y/Pliv_PqN3S_evmp.pep.gz?dl=1)** | EVM/PASA proteins | fasta |
 | **[Pliv_PqN3S_stageStt.gtf](https://www.dropbox.com/s/op02lw4p1pneq19/Pliv_PqN3S_stageStt.gtf.gz?dl=1)** | Stringtie RNA-seq | GTF |
+| **[Pliv_PqN3S_stageStt.gtf](https://www.dropbox.com/s/9kimik7jsj1n6th/Pliv_aH2p_fg.gtf?dl=1)** | New Annotation | GTF |
+| **[Pliv_aH2p_fg.gtf](https://www.dropbox.com/s/9kimik7jsj1n6th/Pliv_aH2p_fg.gtf?dl=1)** | New Annotation | GTF |
+| **[annot_equivalence.tsv](https://www.dropbox.com/s/grukyhrtigw75b2/annot_equivalence.tsv?dl=1)** | gene and transcript equivalence between annotation | GTF |
 
+The new annotation uses improved RNA-seq and contains more protein domains than the previous one, however, it is still a work in progress! 
 
-## Blast server
-
-A **[blast server](http://45.77.139.253:4567/)** makes it possible to search the assembly, the reference transcripts and proteins.
 
 ## Genome browser
 
+*Please note that a new server for the hub has been deployed, because the previous instance didn't have enouh memory for BLAT to run!*
+
 The sea urchin genome assembly and annotation are available as a [UCSC track hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html). The assembly should be searchable using BLAT. To enable access, you can either:
 
-- Use the [following UCSC session](http://genome-euro.ucsc.edu/cgi-bin/hgTracks?hgS_doOtherUser=submit&hgS_otherUserName=fmarletaz&hgS_otherUserSessionName=hub_16138_Pliv_PqN3S)
-- set up the hub by adding the hub address `http://45.77.139.253/Urchin/hub.txt ` to `My Data > Track Hubs > My hubs` in UCSC menu (see [instructions as pdf](https://www.dropbox.com/s/oqk7e1kh8ch7ezq/hub.pdf?dl=0)). Because of memory issues, the BLAT search is not available on this hub, so you can alternatively use the one kindly hosted in Oxford zoology department: `http://zoo-animalia.zoo.ox.ac.uk/Urchin/hub.txt`
+- Use the [following UCSC session](http://genome-asia.ucsc.edu/s/fmarletaz/hub_80016_Pliv_PqN3S)
+- set up the hub by adding the hub address `http://95.179.158.79/Urchin/hub.txt` to `My Data > Track Hubs > My hubs` in UCSC menu (see [instructions as pdf](https://www.dropbox.com/s/oqk7e1kh8ch7ezq/hub.pdf?dl=0)).
+
+
